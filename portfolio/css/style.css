@@ -1,0 +1,1097 @@
+@import 'fonts.css';
+
+
+:root{
+    --r-s: 'Raleway-SemiBold';
+    --r-r: 'Raleway-Regular';
+    --r-m: 'Raleway-Medium';
+    --r-mi: 'Raleway-MediumItalic';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul{
+    margin-bottom: 0;
+}
+
+.row {
+    justify-content: center;
+}
+
+/************************************/
+
+.mainmenu{
+    width: 272px;
+    background: #353541;
+    padding-bottom: 0%;
+    position: fixed;
+    z-index: 1;
+}
+
+.avatar{
+    background: url(../img/1.jpg)no-repeat center center / cover;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.avatar a{
+    color: rgba(255, 0, 0, 0.863);
+    font-size: 25px;
+    align-self: flex-start;
+    margin-left: 20px;
+    outline-style: none;
+}
+
+.avatar .avatarNameProfession{
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.avatar h1{
+    font-family: var(--r-m);
+    font-size: 32px;
+    color: #ffffffc9;
+}
+
+.avatar h3{
+    font-family: var(--r-m);
+    font-size: 16px;
+    color: #ffffffc9;
+}
+
+.mainmenu li{
+    border: solid 1px #282835;
+    padding: 20px 0 20px 30px;
+}
+
+.mainmenu li:hover{
+    background: #282835;
+}
+
+.mainmenu li a{
+    align-items: center;
+    font-family: var(--r-m);
+    font-size: 18px;
+    color: #ffffff;
+    outline-style: none;
+}
+
+.mainmenu li a:hover{
+    text-decoration: none;
+}
+
+header{
+    background: url(../img/2.jpg)no-repeat top center / cover;
+    
+}
+
+header .mainmenuBtn{
+    position: fixed;
+    outline-style: none;
+    border: none;
+    color: red;
+    background: none;
+    font-size: 30px;
+    margin: 10px 0 0 20px;
+    z-index: 1;
+}
+
+header h1{
+    font-family: var(--r-s);
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 25px;
+}
+
+header h4{
+    font-family: var(--r-m);
+    font-size: 22px;
+    color: #ffffffbe;
+    text-align: center;
+    padding-bottom: 53px;
+}
+
+header .mainmenuAphorism{
+    padding-bottom: 113px;
+    text-align: center;
+}
+
+header .mainmenuTitle{
+    padding-bottom: 113px;
+    text-align: center;
+}
+
+header a{
+    border-radius: 10px;
+    background: red;
+    padding: 15px 40px;
+    font-family: var(--r-m);
+    font-size: 22px;
+    transition: 0.5s;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+header a:hover{
+    text-decoration: none;
+    background: grey;
+    color: #ffffff;
+}
+
+.projects{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    width: 100%;
+    background: #f9f9f9;
+}
+
+.projectsLeft{
+    border-right: 2px solid #cdccca;
+}
+
+.projects .img{
+    text-align: center;
+}
+
+.projects h2{
+    border-bottom: 2px solid red;
+    width: 208px;
+    padding-bottom: 15px;
+    margin-bottom: 70px;
+    font-family: var(--r-s);
+    font-size: 32px;
+    color: #3e3e3e;
+}
+
+.projectBlockRed .prDescription{
+    background: red;
+    padding: 10px;
+}
+
+.projectBlockBlack .prDescription{
+    background: black;
+    padding: 10px;
+}
+
+.projectBlockRed h3{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: var(--r-m);
+    font-size: 22px;
+}
+
+
+.projectBlockBlack h3{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: var(--r-m);
+    font-size: 22px;
+}
+
+.projectBlockRed a{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.projectBlockBlack a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.projectBlockRed h3:hover{
+    color: black;
+}
+
+.projectBlockBlack h3:hover{
+    color: red;
+}
+
+.projects p{
+    font-family: var(--r-m);
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.projects img{
+    width: 80%;
+    transition: 0.5s;
+}
+
+.projects img:hover{
+    width: 100%;
+}
+
+main{
+    padding: 100px 0 80px 0;
+}
+
+main h2{
+    font-family: var(--r-m);
+    font-size: 30px;
+    color: #3e3e3e;
+    margin-bottom: 25px;
+}
+
+main .messageCol{
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+main .shortInfo{
+    padding: 11px 0 11px 11px;
+    border: 1px solid #353541;
+    outline-style: none;
+    width: 325px;
+    height: 35px;  
+    margin-bottom: 20px; 
+}
+
+.shortInfo::-webkit-input-placeholder {
+    font-family: var(--r-mi);
+    font-size: 14px;
+    color: #3e3e3ed0;
+}
+
+main .message{
+    padding: 11px 0 112px 11px;
+    border: 1px solid #353541;
+    outline-style: none;
+    width: 325px;
+    height: 145px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.message::-webkit-input-placeholder {
+    font-family: var(--r-mi);
+    font-size: 14px;
+    color: #3e3e3ed0;
+}
+
+.sendBtn{
+    font-family: var(--r-m);
+    font-size: 16px;
+    color: #ffffff;
+    padding: 12px 15px;
+    background: #fb6470;
+    border: none;
+    outline-style: none;
+    margin-left: 89%;
+}
+
+.sendBtn:hover{
+    background: #c9444f;
+}
+
+
+.locationBlock, .emailBlock, .phoneBlock{
+    display: flex;
+}
+
+.infoCol i{
+    font-size: 25px;
+    margin-right: 45px;
+    margin-left: 45px;
+    color: grey;
+}
+
+.infoCol h4{
+    font-family: var(--r-m);
+    font-size: 22px;
+    color: #353434;
+}
+
+.infoCol p{
+    font-family: var(--r-m);
+    font-size: 16px;
+    color: #3e3e3ec9;
+}  
+  
+.dws {
+    position: absolute;
+    top: 92%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+.pulse, .bloc, .phone {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.bloc {
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+}
+.pulse {
+    background: #c9444f;
+    position: relative;
+    transition: .5s;
+}
+.phone {
+    font-size: 10px;
+    line-height: 50px;
+    animation: phone .9s ease-in-out infinite;
+    right: 65%;
+    top: 10%;
+}
+.text {
+    position: absolute;
+    opacity: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    top: 28px;
+    font-size: 14px;
+    transform: scaleX(-1);
+    transition: .5s ease-in-out;
+}
+.phone i {
+    transition: .5s ease-in-out;
+    color: #fff;
+}
+.pulse:hover {
+    background: #c9444f;
+    width: 90px;
+    height: 90px;
+}
+.pulse:hover i {
+    transition: .5s ease-in-out;
+    transform: scale(0);
+}
+.pulse:hover .text {
+    transform: scaleX(1);
+    transition: .5s ease-in-out;
+    opacity: 1;
+}
+.pulse:hover::before,
+.pulse:hover::after {
+    content: '';
+    position: absolute;
+    border: 1px solid #c9444f;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: pulse 1.8s linear infinite;
+    opacity: 0;
+}
+.pulse:hover::after {
+    animation-delay: .5s;
+}
+
+@keyframes phone {
+    0%, 100% {
+     transform: rotate(10deg);
+    }
+    50% {
+     transform: rotate(-10deg);
+    }
+}
+@keyframes pulse {
+    0% {
+     transform: scale(0.5);
+     opacity: 0;
+    }
+    50% {
+     opacity: 1;
+    }
+    100% {
+     transform: scale(1.2);
+     opacity: 0;
+    }
+}
+
+footer{
+    padding: 35px 0 30px 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+footer a{
+    list-style: none;
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+footer a:hover{
+    color: #c9444f;
+}
+
+footer i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+footer .fa-telegram{
+    padding: 0 10px;
+    border-right: 1px solid #acacac;
+    border-left: 1px solid #acacac;
+}
+
+footer p{
+    font-family: var(--r-m);
+    font-size: 12px;
+    color: #3e3e3e;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media(max-width: 1199px){
+    header h1 {
+        font-size: 45px;
+        padding-top: 105px;
+        padding-bottom: 25px;
+    }
+
+    .mainmenu{
+        width: 240px;
+    }
+    
+    .avatar{
+        height: 209px;
+    }
+    
+    .avatar .avatarNameProfession{
+        margin-left: 18px;
+    }
+    
+    .avatar h1{
+        font-size: 28px;
+    }
+    
+    .avatar h3{
+        font-size: 16px;
+    }
+    
+    .mainmenu li{
+        padding: 18px 0 18px 28px;
+    }
+    
+    .mainmenu li a{
+        font-size: 16px;
+    }
+
+    main .shortInfo {
+        width: 250px;
+        height: 35px;
+        margin-bottom: 20px;
+    }
+
+    main .message {
+        width: 250px;
+        height: 145px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .sendBtn {
+        padding: 12px 15px;
+        margin-left: 83%;
+    }
+}
+
+@media(max-width: 1099px){
+    header a {
+        padding: 12px 35px;
+        font-size: 20px;
+    }
+
+    .projects h2 {
+        width: 195px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .projects h3 {
+        font-size: 20px;
+    }
+
+    .projects p {
+        font-size: 17px;
+    }
+
+    main h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    main .shortInfo {
+        width: 250px;
+        height: 35px;
+        margin-bottom: 20px;
+    }
+
+    main .message {
+        width: 250px;
+        height: 145px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .sendBtn {
+        padding: 12px 15px;
+        margin-left: 83%;
+    }
+
+    footer{
+        padding: 30px 0 28px 0;
+    }
+
+    footer i{
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    footer .fa-telegram{
+        padding: 0 10px;
+    }
+}
+
+@media(max-width: 992px){
+    header h1 {
+        font-size: 30px;
+        padding-top: 105px;
+        padding-bottom: 25px;
+    }
+
+    .mainmenu{
+        width: 240px;
+    }
+    
+    .avatar{
+        height: 175px;
+    }
+    
+    .avatar .avatarNameProfession{
+        margin-left: 15px;
+    }
+    
+    .avatar h1{
+        font-size: 25px;
+    }
+    
+    .avatar h3{
+        font-size: 16px;
+    }
+    
+    header a {
+        padding: 12px 32px;
+        font-size: 18px;
+    }
+
+    .projects h2 {
+        width: 182px;
+        padding-bottom: 12px;
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+
+    .projects p {
+        font-size: 16px;
+    }
+
+    .projects h3 {
+        font-size: 18px;
+    }
+
+    main h2 {
+        font-size: 26px;
+        margin-bottom: 23px;
+    }
+
+    main .shortInfo {
+        width: 250px;
+        height: 35px;
+        margin-bottom: 18px;
+    }
+
+    main .message {
+        width: 250px;
+        height: 145px;
+        margin-bottom: 18px;
+        margin-left: 18px;
+    }
+
+    .sendBtn {
+        padding: 10px 13px;
+        margin-left: 83%;
+    }
+
+    .infoCol i {
+        font-size: 23px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .infoCol h4 {
+        font-size: 20px;
+    }
+
+    .infoCol p {
+        font-size: 14px;
+    }
+
+    .pulse, .bloc, .phone {
+        width: 45px;
+        height: 50px;
+    }
+
+    footer{
+        padding: 28px 0 26px 0;
+    }
+
+    footer i{
+        margin-right: 8px;
+        font-size: 18px;
+    }
+
+    footer .fa-telegram{
+        padding: 0 8px;
+    }
+}
+
+@media(max-width: 991px){
+    header h1 {
+        font-size: 25px;
+        padding-top: 100px;
+        padding-bottom: 23px;
+    }
+
+    .mainmenu{
+        width: 225px;
+    }
+    
+    .avatar{
+        height: 175px;
+    }
+    
+    .avatar .avatarNameProfession{
+        margin-left: 0px;
+    }
+    
+    .avatar h1{
+        font-size: 25px;
+    }
+    
+    .avatar h3{
+        font-size: 15px;
+    }
+    
+    header a {
+        padding: 12px 28px;
+        font-size: 16px;
+    }
+
+    header h1 {
+        font-size: 40px;
+        padding-top: 115px;
+        padding-bottom: 15px;
+    }
+    
+    header h4 {
+        font-size: 14px;
+        padding-bottom: 40px;
+    }
+
+    .projects {
+        padding-bottom: 80px;
+    }
+
+    .projects h2 {
+        width: 182px;
+        padding-bottom: 12px;
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+
+    .projects p {
+        font-size: 16px;
+    }
+
+    .projects h3 {
+        font-size: 18px;
+    }
+
+    
+    main h2 {
+        font-size: 26px;
+        margin-bottom: 23px;
+        text-align: center;
+    }
+
+    main .shortInfo {
+        width: 500px;
+        height: 35px;
+        margin-bottom: 18px;
+    }
+
+    main .message {
+        width: 500px;
+        height: 145px;
+        margin-bottom: 18px;
+        margin-left: 0px;
+    }   
+
+    main .infoBlock{
+        text-align: center;
+    }
+
+    main .messageBlock{
+        text-align: center;
+    }
+
+    .sendBtn {
+        padding: 10px 13px;
+        margin-left: 71%;
+    }
+
+    .infoCol i {
+        font-size: 23px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .infoCol h4 {
+        font-size: 20px;
+    }
+
+    .infoCol p {
+        font-size: 14px;
+    }
+
+    .pulse, .bloc, .phone {
+        width: 45px;
+        height: 50px;
+    }
+
+    footer{
+        padding: 28px 0 26px 0;
+    }
+
+    footer i{
+        margin-right: 8px;
+        font-size: 18px;
+    }
+
+    footer .fa-telegram{
+        padding: 0 8px;
+    }
+}
+
+@media(max-width: 767px){
+
+    .mainmenu{
+        width: 170px;
+    }
+    
+    .avatar{
+        height: 153px;
+    }
+    
+    .avatar h1{
+        font-size: 22px;
+    }
+    
+    .avatar h3{
+        font-size: 15px;
+    }    
+    
+    .mainmenu li a{
+        font-size: 14px;
+    }
+
+    .mainmenu li {
+        padding: 14px 0 14px 20px;
+    }
+    
+    
+    header a {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 35px;
+        padding-top: 115px;
+        padding-bottom: 5px;
+    }
+    
+    header h4 {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    .projectsLeft {
+        border-right: none;
+    }
+
+    .projects {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .projects h2 {
+        width: 130px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .projects p {
+        font-size: 14px;
+    }
+    
+    .projects h3 {
+        font-size: 16px;
+    }
+
+    main h2 {
+        font-size: 20px;
+        margin-bottom: 23px;
+        text-align: center;
+    }
+
+    main {
+        padding: 50px 0 50px 0;
+    }
+
+    main .shortInfo {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 12px;
+    }
+
+    main .message {
+        width: 100%;
+        height: 145px;
+        margin-bottom: 18px;
+        margin-left: 0px;
+    }   
+
+    main .infoBlock{
+        text-align: center;
+    }
+
+    main .messageBlock{
+        text-align: center;
+    }
+
+    .sendBtn {
+        padding: 8px 10px;
+        margin-left: 85%;
+        font-size: 12px;
+    }
+
+    .infoCol i {
+        font-size: 20px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .infoCol h4 {
+        font-size: 16px;
+    }
+
+    .infoCol p {
+        font-size: 12px;
+    }
+
+    .pulse, .bloc, .phone {
+        width: 45px;
+        height: 45px;
+        font-size: 5px;
+    }
+
+    .text {
+        top: 28px;
+        font-size: 12px;
+    }
+
+    footer{
+        padding: 20px 0 20px 0;
+    }
+
+    footer p{
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    footer i{
+        margin-right: 8px;
+        font-size: 18px;
+    }
+
+    footer .fa-telegram{
+        padding: 0 8px;
+    }
+}
+
+@media(max-width: 575px){
+
+    header h1 {
+        font-size: 22px;
+        padding-top: 90px;
+        padding-bottom: 5px;
+    }
+
+    header h4 {
+        font-size: 12px;
+        padding-bottom: 18px;
+    }
+
+    .mainmenu{
+        width: 170px;
+    }
+    
+    .avatar{
+        height: 153px;
+    }
+    
+    .avatar h1{
+        font-size: 20px;
+    }
+    
+    .avatar h3{
+        font-size: 14px;
+    }    
+    
+    .mainmenu li a{
+        font-size: 14px;
+    }
+
+    .mainmenu li {
+        padding: 10px 0 10px 15px;
+    }
+
+    .avatar a {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 450px){
+
+    header h1 {
+        font-size: 18px;
+        padding-top: 90px;
+        padding-bottom: 5px;
+        text-align: end;
+    }
+
+    header h4 {
+        font-size: 10px;
+        padding-bottom: 18px;
+        text-align: end;
+    }
+
+    header a {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+
+    .mainmenu{
+        width: 144px;
+    }
+    
+    .avatar{
+        height: 146px;
+    }
+    
+    .avatar h1{
+        font-size: 15px;
+    }
+    
+    .avatar h3{
+        font-size: 12px;
+    }    
+    
+    .mainmenu li a{
+        font-size: 12px;
+    }
+
+    .mainmenu li {
+        padding: 5px 0 5px 10px;
+    }
+
+    .avatar a {
+        font-size: 15px;
+        margin-left: 15px;
+    }
+
+    .projectBlockRed .prDescription {
+        background: red;
+        padding: 5px;
+    }
+
+    .projects h2 {
+        width: 117px;
+        padding-bottom: 3px;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }    
+    
+    .projects h3 {
+        font-size: 14px;
+    }
+
+    .projects p {
+        font-size: 12px;
+    }
+
+    .sendBtn {
+        padding: 8px 10px;
+        margin-left: 80%;
+        font-size: 12px;
+    }
+
+    .infoCol h4 {
+        font-size: 14px;
+    }
+
+    .infoCol i {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .pulse, .bloc, .phone {
+        width: 35px;
+        height: 35px;
+        font-size: 5px;
+    }
+
+    .phone{
+        left: -10px;
+    }
+
+    footer p {
+        font-size: 10px;
+        margin-top: 8px;
+    }
+
+
+}
+
+@media(max-width: 400px){
+    .sendBtn {
+        margin-left: 0%;
+    }
+}
