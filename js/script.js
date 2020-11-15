@@ -11,7 +11,7 @@ $(function () {
         $(this).hide();
     })
 
-    $('.hideMenu').click(function () {
+    $('.hideMenu').click(function (event) {
         event.preventDefault();
         $('.mainmenu').fadeOut(500);
         $('.mainmenuTitle').fadeIn(500);
