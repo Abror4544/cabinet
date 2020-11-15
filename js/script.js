@@ -12,6 +12,7 @@ $(function () {
     })
 
     $('.hideMenu').click(function () {
+        event.preventDefault();
         $('.mainmenu').fadeOut(500);
         $('.mainmenuTitle').fadeIn(500);
         $('.mainmenuAphorism').fadeOut(500);
