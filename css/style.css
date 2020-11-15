@@ -30,6 +30,8 @@ ul{
     background: #353541;
     padding-bottom: 0%;
     position: absolute;
+    position: fixed;
+    z-index: 1;
 }
 
 .avatar{
