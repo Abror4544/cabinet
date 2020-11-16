@@ -659,6 +659,7 @@ main .message{
     position: relative;
     transition: .5s;
     text-align: left;
+    padding: 2px;
 }
 .phone {
     font-size: 10px;
@@ -685,6 +686,7 @@ main .message{
 
 .pulse a:hover{
     color: #000000;
+    text-decoration: none;
 }
 
 .phone i {
