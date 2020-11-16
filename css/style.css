@@ -682,6 +682,11 @@ main .message{
     color: #ffffff;
     margin-top: 10px;
 }
+
+.pulse a:hover{
+    color: #000000;
+}
+
 .phone i {
     transition: .5s ease-in-out;
     color: #fff;
