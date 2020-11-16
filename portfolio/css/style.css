@@ -326,7 +326,7 @@ main .message{
     left: 80%;
     transform: translate(-50%, -50%);
 }
-.pulse, .bloc, .phone {
+.pulse, .phone {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -335,15 +335,13 @@ main .message{
     border-radius: 50%;
     cursor: pointer;
 }
-.bloc {
-    cursor: pointer;
-    z-index: 1;
-    overflow: hidden;
-}
+
 .pulse {
     background: #c9444f;
     position: relative;
     transition: .5s;
+    text-align: left;
+    padding: 2px;
 }
 .phone {
     font-size: 10px;
@@ -361,7 +359,18 @@ main .message{
     font-size: 14px;
     transform: scaleX(-1);
     transition: .5s ease-in-out;
+    z-index: 1;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 10px;
 }
+
+.pulse a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
 .phone i {
     transition: .5s ease-in-out;
     color: #fff;
