@@ -658,6 +658,7 @@ main .message{
     background: #c9444f;
     position: relative;
     transition: .5s;
+    text-align: left;
 }
 .phone {
     font-size: 10px;
@@ -675,6 +676,11 @@ main .message{
     font-size: 14px;
     transform: scaleX(-1);
     transition: .5s ease-in-out;
+    z-index: 1;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 10px;
 }
 .phone i {
     transition: .5s ease-in-out;
