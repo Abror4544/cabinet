@@ -20,10 +20,10 @@ $(function () {
         $('.mainmenuBtn').show();
     })
 
-    let link = $('nav ul li a');
+    let link = $('nav ul li #portfolLink');
 
     link.on('click', function (e) {
-        e.preventDefault($("#portfolLink"));
+        e.preventDefault();
         
         let selector = $(this).addClass('active').attr('href');
         let target = $(selector);
