@@ -4,7 +4,8 @@ $(function () {
     $('.mainmenuAphorism').hide();
 
 
-    $('.mainmenuBtn').click(function () {
+    $('.mainmenuBtn').click(function (event) {
+        event.preventDefault();
         $('.mainmenu').fadeIn(500);
         $('.mainmenuTitle').hide(500);
         $('.mainmenuAphorism').fadeIn(500);
@@ -17,6 +18,19 @@ $(function () {
         $('.mainmenuTitle').fadeIn(500);
         $('.mainmenuAphorism').fadeOut(500);
         $('.mainmenuBtn').show();
+    })
+
+    let link = $('nav ul li a');
+
+    link.on('click', function (e) {
+        e.preventDefault($("#portfolLink"));
+        
+        let selector = $(this).addClass('active').attr('href');
+        let target = $(selector);
+
+        $('html, body').animate({ scrollTop: target.offset().top - 70 }, 1000);
+
+
     })
 
 })
