@@ -20,7 +20,7 @@ $(function () {
         $('.mainmenuBtn').show();
     })
 
-    let link = $('nav ul li #portfolLink');
+    let link = $('nav ul li #portfolLink, #contactsLink');
 
     link.on('click', function (e) {
         e.preventDefault();
