@@ -91,6 +91,7 @@ ul{
 
 header{
     background: url(../img/2.jpg)no-repeat top center / cover;
+    height: 100vh;
     display: flex;
     align-items: center;    
 }
