@@ -166,6 +166,7 @@ header a:hover{
 .projects .img{
     text-align: center;
     background: #e3e3e3;
+    overflow: hidden;
 }
 
 .projects h2{
@@ -231,14 +232,13 @@ header a:hover{
 }
 
 .projects img{
-    width: 80%;
+    width: 100%;
     transition: 0.5s;
     height: 300px;
-    margin-top: 20px;
 }
 
 .projects img:hover{
-    width: 100%;
+    transform: scale(1.1);
 }
 
 main{
